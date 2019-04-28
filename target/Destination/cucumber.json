@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 213998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Gmailmethods.method1(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "validate gmail home page title",
+        "description": "",
+        "id": "gmail-home-page-title;validate-gmail-home-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31273242930,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch gmail site",
+            "match": {
+              "location": "Gmailmethods.method2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "test is passed"
+            ],
+            "result": {
+              "duration": 25758308,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title is \"Gmail\" for homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gmail",
+                  "offset": 10
+                }
+              ],
+              "location": "Gmailmethods.method3(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7128813095,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close site",
+            "match": {
+              "location": "Gmailmethods.method4()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Gmail home page title",
+    "description": "",
+    "id": "gmail-home-page-title",
+    "keyword": "Feature",
+    "uri": "D:/batch365/Cucumber/adwize2/src/test/resources/feature/f1.feature"
+  }
+]
